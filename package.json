@@ -1,0 +1,14 @@
+{
+  "name": "steam-recommendation-backend",
+  "author": "Jiahonzheng",
+  "version": "1.0.0",
+  "description": "> 游戏推荐平台-服务端",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "./node_modules/.bin/nodemon ./app.js"
+  },
+  "dependencies": {
+    "koa": "^2.4.1"
+  }
+}
