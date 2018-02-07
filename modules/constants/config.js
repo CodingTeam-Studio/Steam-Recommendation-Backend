@@ -1,7 +1,7 @@
-const port = 4000;
+const port = 9973;
 
 const corOptions = {
-    "origin": "http://localhost:8000",
+    "origin": "http://localhost:9973",
     "methods": "GET, POST",
     "credentials": true
 };
@@ -26,9 +26,10 @@ const databaseOptions = {
     },
     mongodb: {
         host: '127.0.0.1',
+        //本地开发我没设置user
         user: 'root',
         password: '123456',
-        database: 'example',
+        database: 'steamcn1',
         port: 27017
     }
 };
