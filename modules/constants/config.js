@@ -1,7 +1,7 @@
 const port = 6953;
 
 const corOptions = {
-    "origin": "http://localhost:6953",
+    "origin": "http://127.0.0.1:6953",
     "methods": "GET, POST",
     "credentials": true
 };
