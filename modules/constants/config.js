@@ -26,10 +26,11 @@ const databaseOptions = {
     },
     mongodb: {
         host: '127.0.0.1',
-        //本地开发我没设置user
-        user: 'root',
-        password: '123456',
-        database: 'steamcn1',
+        //本地开发我没设置user,所以这里的user和pw都用不上
+        //user: 'root',
+        //password: '123456',
+        databaseFree: 'steamcn1',//存储免费游戏信息的数据库
+        databaseDiscount: 'steam1',
         port: 27017
     }
 };
